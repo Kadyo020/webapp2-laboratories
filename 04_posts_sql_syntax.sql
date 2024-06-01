@@ -1,8 +1,10 @@
 CREATE TABLE posts(
-    -> user_id int,
-    -> id int not null auto_increment primary key,
-    -> title varchar(255),
-    -> body varchar(255));
+    user_id int,
+    id int not null auto_increment primary key,
+    title varchar(255),
+    body varchar(255));
+    
+    
 
  
 INSERT INTO posts(user_id, id, title, body) VALUES 
